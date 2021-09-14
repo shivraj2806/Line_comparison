@@ -23,18 +23,21 @@ public class Line_Comparison {
     }
     public void equalityOfLines() {
 
-        double Length0f_line1;
-        double Length0f_line2;
+        double Length_of_line1;
+        double Length_of_line2;
         System.out.println("Length of line 1 is");
-        Length0f_line1 = calculateLength();
+        Length_of_line1 = calculateLength();
         System.out.println("Length of line 2 is");
-        Length0f_line2 = calculateLength();
+        Length_of_line2 = calculateLength();
 
-        if (Length0f_line1 == Length0f_line2) {
-            System.out.println("Length are equal ");
-        } else{
-            System.out.println("Length are not equal");
+        if (Length_of_line1 == Length_of_line2) {
+            System.out.println("The length of line 1 is equal to length of line 2");
+        } else if (Length_of_line1 > Length_of_line2) {
+            System.out.println("The length of line 1 is greater then length of line; 2");
+        } else {
+            System.out.println("The length of line 1 is less then length of line 2");
         }
+
     }
 }
 
